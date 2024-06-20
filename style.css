@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&display=swap');
+@font-face {
+    font-family:inter;
+    src: url(./assets/fonts/Inter-VariableFont_slnt,wght.ttf);
+
+}
+nav{display: flex;
+justify-content: space-between;
+align-items: center;
+font-family: inter;}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    text-decoration:none;
+}
+a{text-decoration: none;}
+p{font-family: "Playwrite PL", cursive;;}
+
+#hello{display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 5px;
+    height: 100vh;
+}
+.bye{
+    gap: 5px;
+}
+.bye1{
+
+    background-color: burlywood;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.bye2{
+    background-color: rgb(14, 13, 13);
+    grid-row: span 3;
+    color: white;;
+    padding: 5px;
+
+}
+.bye3{
+    padding: none;
+    font-size: larger;
+    font-weight:  1000  ;
+
+}
+.bye4{
+    background-color: burlywood;
+    padding: 5px;
+    font-size: smaller;
+
+}
+.bye5{
+    background-color: burlywood;
+    
+}
+.bye6{
+    background-color: burlywood;
+    display: flex;
+}
+.bye7{
+    background-color: burlywood;
+    display: flex;
+
+
+}
+#hi {display: flex;}
